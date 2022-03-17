@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import NewsItem from './NewsItem';
+import "../Styles/newslist-style.css";
 import axios from 'axios';
-
 
 import NEWS_API_KEY from "../config.js";
 
