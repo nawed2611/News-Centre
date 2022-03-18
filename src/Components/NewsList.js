@@ -10,10 +10,10 @@ export default function NewsList() {
 
     useEffect(() => {
         const getArticles = async () => {
-            // const res = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&apiKey=${NEWS_API_KEY}`)
+            const res = await axios.get(`https://newsapi.org/v2/top-headlines?country=in&apiKey=${NEWS_API_KEY}`)
 
-            // setArticles(res.data.articles);
-            // console.log(res);
+            setArticles(res.data.articles);
+            console.log(res);
         }
         getArticles();
     }, []);
