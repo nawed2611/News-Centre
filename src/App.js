@@ -1,15 +1,45 @@
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './Components/Navbar';
-import Search from './Components/Search';
-import NewsList from './Components/NewsList';
+import Home from './Pages/Home';
+import Search from './Pages/Search';
+import { Input, Button } from 'antd';
+import "./Styles/search-style.css";
 import './App.css';
 
 function App() {
+
+  const [value, setValue] = useState('');
+
+  const handleChange = e => {
+    setValue(e.target.value);
+  };
+
+  const handleSubmit = e => {
+    e.preventDefault();
+    console.log(value);
+  }
+
+
   return (
-    <div className="App">
-      <Navbar />
-      <Search />
-      <NewsList />
-    </div>
+    <Router>
+      <div className="App">
+        
+        <Navbar />
+
+        <div className="searchbar">
+          <form className="searchbar-div" onSubmit={handleSubmit}>
+            <Input style={{ width: "30%" }} type="text" placeholder="Search For News Here..." value={value} onChange={handleChange} />
+            <Link to="/search"><Button type="submit">Submit</Button></Link>
+          </form>
+        </div>
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/search" element={<Search value={value} />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
