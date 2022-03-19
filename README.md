@@ -17,3 +17,7 @@ https://user-images.githubusercontent.com/83456083/159136127-4a944bd7-fd8b-461a-
 - Install the required dependencies and packages
   ```
     npm install
+    
+- Run the app
+  ```
+    npm start
