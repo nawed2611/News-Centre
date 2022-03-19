@@ -5,3 +5,19 @@
     margin: 1rem;
     padding: 1rem;
 }
+.searchbar-div{
+    display: flex;
+}
+.search-heading{
+    margin-left: 1rem;
+    padding: 1rem;
+}
+.search{
+    display: flex;
+    flex-direction: column;
+}
+.search-results{
+    display: flex;
+    margin: 1rem;
+    flex-wrap: wrap;
+}

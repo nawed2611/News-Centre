@@ -5,7 +5,7 @@ export default function Home(){
 
     return(
         <div className="Home">
-            <h1>Top Headlines in India</h1>
+            <h1 className="search-heading">Top Headlines in India</h1>
             <NewsList />
         </div>
     );

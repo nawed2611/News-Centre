@@ -29,8 +29,8 @@ function App() {
 
         <div className="searchbar">
           <form className="searchbar-div" onSubmit={handleSubmit}>
-            <Input style={{ width: "30%" }} type="text" placeholder="Search For News Here..." value={value} onChange={handleChange} />
-            <Link to="/search"><Button type="submit">Submit</Button></Link>
+            <Input type="text" placeholder="Search For News Here..." value={value} onChange={handleChange} />
+            <Link to="/search"><Button type="submit">Search</Button></Link>
           </form>
         </div>
 
