@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Search from './Pages/Search';
-import { Input, Button } from 'antd';
 import "./Styles/search-style.css";
-import './App.css';
+
 
 function App() {
 
@@ -29,8 +28,8 @@ function App() {
 
         <div className="searchbar">
           <form className="searchbar-div" onSubmit={handleSubmit}>
-            <Input type="text" placeholder="Search For News Here..." value={value} onChange={handleChange} />
-            <Link to="/search"><Button type="submit">Search</Button></Link>
+            <input type="text" placeholder="Search For News Here..." value={value} onChange={handleChange} />
+            <Link to="/search"><button type="submit">Search</button></Link>
           </form>
         </div>
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import "antd/dist/antd.css";
+import "milligram/dist/milligram.css";
 
 ReactDOM.render(
   <React.StrictMode>
