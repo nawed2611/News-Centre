@@ -1,16 +1,25 @@
 # News Centre
 
 ## Introduction
-News App is built with React.js and News API. It provides you with "Top Headlines" from India. It also has the functionality of searching any query.
+News App is built with React.js and NewsAPI. It provides you with "Top Headlines" from India. It also has the functionality of searching any query.
 
-## Video Demo
+## GIF
+![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/83456083/163492049-0cdacbf5-3f68-44d8-bca1-5549f0413290.gif)
 
 ## ScreenShots
+![image](https://user-images.githubusercontent.com/83456083/163490896-41b0bce6-5dc3-4108-8ed6-4a78400a0bd8.png)
+
+
+![image](https://user-images.githubusercontent.com/83456083/163490944-af7310b2-ebcd-445a-a97c-30725e80f4dd.png)
+
+
 
 ## Installation / Usage
 
 1. Fork the Repository  
-2. Clone the Repository
+<img width="364" alt="image" src="https://user-images.githubusercontent.com/83456083/163490814-d48f1e42-c873-46e3-87c7-681f139a1d59.png">
+
+3. Clone the Repository
   ```
     git clone <url>
   ```
