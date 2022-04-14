@@ -6,3 +6,9 @@
     margin: 0.5rem;
     padding: 1rem;
 }
+
+.card{
+    background-color: rgba(233, 206, 235, 0.5);
+    padding: 2rem;
+    min-height: 90vh;
+}
