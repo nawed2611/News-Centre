@@ -1,4 +1,4 @@
-# News Centre
+<h1 align="center"> News Centre</h1>
 
 ## Introduction
 News App is built with React.js and NewsAPI. It provides you with "Top Headlines" from India. It also has the functionality of searching any query.
