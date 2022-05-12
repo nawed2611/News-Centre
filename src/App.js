@@ -50,13 +50,6 @@ function App() {
           </form>
         </div>
 
-        {articles.map(({ title, description, url, urlToImage }) => (
-                <NewsItem title={title}
-                description={description}
-                url={url} 
-                urlToImage={urlToImage} />
-            ))} 
-
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search value={value} />} />
