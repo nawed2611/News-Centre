@@ -8,7 +8,7 @@ export default function Navbar(){
         <div className="navbar">
                 <Link to="/"><h2>News Centre</h2></Link>
                 <ul className="navlinks">
-                    <a href="https://github.com/nawed2611/News-App" target="_blank"><li>GitHub Repo</li></a>
+                    <a href="https://github.com/nawed2611/News-Centre" target="_blank" rel="noreferrer"><li>GitHub Repo</li></a>
                 </ul>
         </div>
 
