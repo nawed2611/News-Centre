@@ -1,17 +1,23 @@
 <h1 align="center"> News Centre</h1>
 
 ## Introduction
-News App is built with React.js and NewsAPI. It provides you with "Top Headlines" from India. It also has the functionality of searching any query.
+News Centre is built with React.js and NewsAPI. It provides you with "Top Headlines" from India and also has the functionality of searching any news query. News Centre also is an voice enabled AI app powered by Alan AI.
+
+Alan AI commands - 
+1. What does this App do' or 'What can I do here' or 'What is News Centre' - tells you about News Centre
+2. 'Hey Alan' - reads the Top Headlines
+
+Link to the Alan AI Code - [Alan AI GitHub Gist](https://gist.github.com/nawed2611/7ba4487fcd3e188a9ec72bf35087866f)
+
+## Video Demo
+
+https://user-images.githubusercontent.com/83456083/168166491-de1dfa73-039a-47a0-9240-d60e44fb0fcb.mp4
 
 ## GIF
-![ezgif com-gif-maker (2)](https://user-images.githubusercontent.com/83456083/163492049-0cdacbf5-3f68-44d8-bca1-5549f0413290.gif)
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/83456083/168167140-488fa443-adeb-4f1e-8ae8-650f829aa952.gif)
 
 ## ScreenShots
-![image](https://user-images.githubusercontent.com/83456083/163490896-41b0bce6-5dc3-4108-8ed6-4a78400a0bd8.png)
-
-
-![image](https://user-images.githubusercontent.com/83456083/163490944-af7310b2-ebcd-445a-a97c-30725e80f4dd.png)
-
+![image](https://user-images.githubusercontent.com/83456083/168167208-e5ab276c-9f7d-417d-9767-66c0c0583fce.png)
 
 
 ## Installation / Usage
@@ -31,9 +37,10 @@ News App is built with React.js and NewsAPI. It provides you with "Top Headlines
   ```
     npm start
   ```
-5. Open (Here)[https://localhost:3000] to view the app
+5. Open https://localhost:3000 to view the app
 
 ## Open Source
+
 News Centre is open-source and it is open to contribution. It plans to allow first-time open-source contributors to get hands on open-source experience. 
 Make your first Pull Request.
 
@@ -47,33 +54,26 @@ Make your first Pull Request.
     npm install
   ```
 4. Create your Branch
-1. Fork the Repository  
-2. Clone the Repository
-  ```
-    git clone <url>
-  ```
-3. Install the required dependencies and packages through npm or yarn
-  ```
-    git checkout -b <branch-name>
-  ```
-4. Make your desired changes
-5. View the changes
+5. Make your desired changes
+6. View the changes
 ```
   git status
 ```
 ```
   git diff
 ```
-6. Stage your changes
+7. Stage your changes
 ```
   git add <filename>
 ```
-7. Commit your changes
+8. Commit your changes
 ```
   git commit -m "commit-message"
 ```
-8. Push your changes
+9. Push your changes
 ```
   git push -u origin <your_branch_name>
 ```
-9. Compare and Make the Pull Request with proper description 
+10. Compare and Make the Pull Request with proper description 
+
+And Voila!
