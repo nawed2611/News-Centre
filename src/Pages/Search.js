@@ -24,11 +24,11 @@ export default function Search({value}) {
             <h1 className="search-heading">Search Results for {value}</h1>
 
             <div className="search-results">
-                {sarticles.map(({ title, description, url, urlToImage }) => (
+                {sarticles.map(({ title, description, url, urlToImage, i }) => (
                 <NewsItem title={title}
                 description={description}
                 url={url} 
-                urlToImage={urlToImage} />
+                urlToImage={urlToImage} key={i} />
             ))}
             </div>
         </div>
