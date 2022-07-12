@@ -1,0 +1,74 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.5rem;
+  margin-top: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.642);
+}
+
+.navlinks {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+}
+.newslist {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0.5rem;
+  padding: 1rem;
+}
+.card {
+  background-color: rgba(233, 206, 235, 0.5);
+  padding: 2rem;
+  min-height: 80vh;
+}
+.newsitem {
+  display: flex;
+  width: 40rem;
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.searchbar-div {
+  display: flex;
+  width: 50rem;
+}
+
+.searchbar-div input {
+  margin-right: 1rem;
+}
+.search-heading {
+  margin-left: 1rem;
+  padding: 1rem;
+}
+.search {
+  display: flex;
+  flex-direction: column;
+}
+.search-results {
+  display: flex;
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.loader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 90vw;
+}
