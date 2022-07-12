@@ -5,7 +5,7 @@ News Centre is built with React.js and NewsAPI. It provides you with "Top Headli
 
 Alan AI commands - 
 1. What does this App do' or 'What can I do here' or 'What is News Centre' - tells you about News Centre
-2. 'Hey Alan' - reads the Top Headlines
+2. 'Hey Alan' - Asks if you want to listen to the Top Headlines from India - Reads if the response is yes
 
 Link to the Alan AI Code - [Alan AI GitHub Gist](https://gist.github.com/nawed2611/7ba4487fcd3e188a9ec72bf35087866f)
 
@@ -17,13 +17,12 @@ https://user-images.githubusercontent.com/83456083/168166491-de1dfa73-039a-47a0-
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/83456083/168167140-488fa443-adeb-4f1e-8ae8-650f829aa952.gif)
 
 ## ScreenShots
-![image](https://user-images.githubusercontent.com/83456083/168167208-e5ab276c-9f7d-417d-9767-66c0c0583fce.png)
-
+<img align="center" alt="image" src="https://user-images.githubusercontent.com/83456083/168167208-e5ab276c-9f7d-417d-9767-66c0c0583fce.png">
 
 ## Installation / Usage
 
 1. Fork the Repository  
-<img width="364" alt="image" src="https://user-images.githubusercontent.com/83456083/163490814-d48f1e42-c873-46e3-87c7-681f139a1d59.png">
+<img align="center" width="364" alt="image" src="https://user-images.githubusercontent.com/83456083/163490814-d48f1e42-c873-46e3-87c7-681f139a1d59.png">
 
 3. Clone the Repository
   ```
