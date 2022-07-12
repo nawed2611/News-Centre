@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import alanBtn from '@alan-ai/alan-sdk-web';
+import {AiOutlineSearch} from 'react-icons/ai';
 
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
 import Search from './Pages/Search';
-import NewsItem from './Components/NewsItem';
-import "./Styles/search-style.css";
 
-const alanKey ='cae7ec1d717fcfb00bcdc4340c8b2d532e956eca572e1d8b807a3e2338fdd0dc/stage';
+const alanKey = process.env.REACT_APP_ALANAI_KEY;
 
 function App() {
 
@@ -25,16 +24,17 @@ function App() {
   }
 
   useEffect(() =>{
+    // Alan AI Button Function
     alanBtn({ 
         key: alanKey,
-        onCommand: ({ command, articles}) => {
+        onCommand: ({ command, searcharticles}) => {
           if(command === 'searchHeadlines'){
-            setArticles(articles);
+            setArticles(searcharticles);
           }
           console.log(articles);
         }
     })
-  }, []);
+  }, [articles]);
 
 
   return (
@@ -46,7 +46,7 @@ function App() {
         <div className="searchbar">
           <form className="searchbar-div" onSubmit={handleSubmit}>
             <input type="text" placeholder="Search For News Here..." value={value} onChange={handleChange} />
-            <Link to="/search"><button type="submit">Search</button></Link>
+            <Link to="/search"><button type="submit">Search {' '}<AiOutlineSearch size="20px" style={{ marginLeft: "2px"}} /></button></Link>
           </form>
         </div>
 
@@ -54,6 +54,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search value={value} />} />
         </Routes>
+
       </div>
     </Router>
   );
