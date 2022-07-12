@@ -1,5 +1,4 @@
 import React from 'react';
-import '../Styles/newsitem-style.css'
 
 export default function NewsItem({ title, description, url, urlToImage, i }) {
 
