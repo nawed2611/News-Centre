@@ -16,15 +16,14 @@ https://user-images.githubusercontent.com/83456083/168166491-de1dfa73-039a-47a0-
 ## GIF
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/83456083/168167140-488fa443-adeb-4f1e-8ae8-650f829aa952.gif)
 
-## ScreenShots
-<img align="center" alt="image" src="https://user-images.githubusercontent.com/83456083/168167208-e5ab276c-9f7d-417d-9767-66c0c0583fce.png">
-
 ## Contribution Guidenlines
 
 News Centre is open-source and it is open to contribution. It plans to allow first-time open-source contributors to get hands on open-source experience. 
 Make your first Pull Request.
 
 Check out [my blog about Git and Open-Source](https://nawedali.hashnode.dev/get-started-with-git-and-github-a-beginners-guide-to-open-source) if you're having issues contributing
+
+---
 
 1. Fork the Repository  
   
@@ -44,25 +43,19 @@ Check out [my blog about Git and Open-Source](https://nawedali.hashnode.dev/get-
   ```
 
 5. Make your desired changes
-6. View the changes
-```
-  git status
-```
-```
-  git diff
-```
-7. Stage your changes
+
+6. Stage your changes
 ```
   git add <filename> or git add .
 ```
-8. Commit your changes
+7. Commit your changes
 ```
   git commit -m "commit-message"
 ```
-9. Push your changes
+8. Push your changes
 ```
   git push -u origin <username-branch>
 ```
-10. Compare and Make the Pull Request with proper description 
+9. Compare and Make the Pull Request with proper description 
 
 And Voila!
