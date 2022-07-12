@@ -4,12 +4,13 @@
   justify-content: space-around;
   padding: 0.5rem;
   margin-top: 1rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.642);
+  border-bottom: 1px solid rgba(233, 206, 235, 0.5);
 }
 
 .navlinks {
   display: flex;
   list-style: none;
+  align-items: center;
   justify-content: space-between;
 }
 .newslist {
@@ -24,10 +25,11 @@
   background-color: rgba(233, 206, 235, 0.5);
   padding: 2rem;
   min-height: 80vh;
+  border-radius: 6px;
 }
 .newsitem {
   display: flex;
-  width: 40rem;
+  width: 41rem;
   margin: 1rem;
   align-items: center;
   justify-content: center;

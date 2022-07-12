@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import alanBtn from '@alan-ai/alan-sdk-web';
-import {AiOutlineSearch} from 'react-icons/ai';
+import { AiOutlineSearch } from 'react-icons/ai';
 
 import Navbar from './Components/Navbar';
 import Home from './Pages/Home';
@@ -23,16 +23,16 @@ function App() {
     console.log(value);
   }
 
-  useEffect(() =>{
+  useEffect(() => {
     // Alan AI Button Function
-    alanBtn({ 
-        key: alanKey,
-        onCommand: ({ command, searcharticles}) => {
-          if(command === 'searchHeadlines'){
-            setArticles(searcharticles);
-          }
-          console.log(articles);
+    alanBtn({
+      key: alanKey,
+      onCommand: ({ command, searcharticles }) => {
+        if (command === 'searchHeadlines') {
+          setArticles(searcharticles);
         }
+        console.log(articles);
+      }
     })
   }, [articles]);
 
@@ -40,13 +40,13 @@ function App() {
   return (
     <Router>
       <div className="App">
-        
+
         <Navbar />
 
         <div className="searchbar">
           <form className="searchbar-div" onSubmit={handleSubmit}>
             <input type="text" placeholder="Search For News Here..." value={value} onChange={handleChange} />
-            <Link to="/search"><button type="submit">Search {' '}<AiOutlineSearch size="20px" style={{ marginLeft: "2px"}} /></button></Link>
+            <Link to="/search"><button type="submit">Search {' '}<AiOutlineSearch size="20px" style={{ marginLeft: "2px" }} /></button></Link>
           </form>
         </div>
 
