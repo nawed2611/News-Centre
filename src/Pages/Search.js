@@ -10,6 +10,7 @@ export default function Search({ value }) {
     const [loading, setLoading] = useState(false);
 
     useEffect(() => {
+        // Calls the API 2sec after value changes
         let timer = setTimeout(() => {
 
             const getsArticles = async () => {
@@ -34,6 +35,7 @@ export default function Search({ value }) {
             <h1 className="search-heading">Search Results for {value}</h1>
 
             <div className="search-results">
+                {/* Loader Component */}
                 {
                     loading && <div className='loader'><h1>Loading...</h1></div>
                 }
