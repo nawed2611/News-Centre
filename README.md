@@ -1,7 +1,7 @@
 <h1 align="center"> News Centre</h1>
 
 ## Introduction
-News Centre is built with React.js and NewsAPI. It provides you with "Top Headlines" from India and also has the functionality of searching any news query. News Centre also is an voice enabled AI app powered by Alan AI.
+News Centre is built with React.js, NewsAPI and Alan AI studio. It provides you with "Top Headlines" from India and also has the functionality of searching any news query. News Centre also is an voice enabled AI app powered by Alan AI.
 
 Alan AI commands - 
 1. What does this App do' or 'What can I do here' or 'What is News Centre' - tells you about News Centre
@@ -16,7 +16,7 @@ https://user-images.githubusercontent.com/83456083/168166491-de1dfa73-039a-47a0-
 ## GIF
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/83456083/168167140-488fa443-adeb-4f1e-8ae8-650f829aa952.gif)
 
-## Contribution Guidenlines
+## Contribution Guidelines
 
 News Centre is open-source and it is open to contribution. It plans to allow first-time open-source contributors to get hands on open-source experience. 
 Make your first Pull Request.
