@@ -15,7 +15,7 @@
 }
 .newslist {
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: space-around;
   flex-wrap: wrap;
   margin: 0.5rem;
@@ -24,7 +24,6 @@
 .card {
   background-color: rgba(233, 206, 235, 0.5);
   padding: 2rem;
-  min-height: 80vh;
   border-radius: 6px;
 }
 .newsitem {
@@ -73,4 +72,18 @@ button {
     align-items: center;
     justify-content: center;
     min-width: 90vw;
+}
+.timediv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 1rem;
+    font-size: 1rem;
+}
+.imagediv{
+  overflow: hidden;
+  transition: transform .2s;
+}
+.imagediv:hover{
+  transform: scale(1.1);
 }
