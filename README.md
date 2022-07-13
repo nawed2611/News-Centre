@@ -16,7 +16,7 @@ https://user-images.githubusercontent.com/83456083/168166491-de1dfa73-039a-47a0-
 ## GIF
 ![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/83456083/168167140-488fa443-adeb-4f1e-8ae8-650f829aa952.gif)
 
-## Contribution Guidenlines
+## Contribution Guidelines
 
 News Centre is open-source and it is open to contribution. It plans to allow first-time open-source contributors to get hands on open-source experience. 
 Make your first Pull Request.
